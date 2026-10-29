@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#100d12">
+<meta name="description" content="Regelwerk der Paulberger Insel – FiveM GTA Roleplay.">
+<title>Regelwerk · Paulberger Insel</title>
+<style>
+:root{color-scheme:dark;--bg:#100d12;--panel:#19141d;--ink:#f4eee7;--muted:#b5abb7;--line:rgba(242,222,255,.13);--orange:#ff983f;--purple:#b28cff;--max:950px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 85% 0%,rgba(119,65,151,.18),transparent 38rem),var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}.wrap{width:min(calc(100% - 42px),var(--max));margin:auto}
+header{height:76px;border-bottom:1px solid rgba(255,255,255,.06);display:flex;align-items:center}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:900;letter-spacing:.08em;font-size:.84rem}.brand span{display:inline-grid;place-items:center;width:34px;height:34px;margin-right:10px;background:var(--orange);border-radius:10px;color:#171019}.links{display:flex;align-items:center;gap:22px;font-size:.86rem;color:#c9becb}.links a:hover,.links .active{color:var(--orange)}.discord{padding:10px 15px;border-radius:9px;background:var(--orange);color:#171019;font-size:.83rem;font-weight:850}
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:linear-gradient(120deg,rgba(255,152,63,.09),transparent 45%),radial-gradient(circle at 87% 40%,rgba(178,140,255,.12),transparent 20rem)}.hero::after{content:"";position:absolute;right:8%;top:-85px;width:260px;height:260px;border:1px solid rgba(178,140,255,.17);border-radius:50%;box-shadow:0 0 0 28px rgba(178,140,255,.04),0 0 0 58px rgba(178,140,255,.025)}.hero-inner{position:relative;z-index:1;padding:48px 0 42px}.eyebrow{color:var(--orange);text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;font-weight:850}.hero h1{font-size:clamp(2.5rem,6vw,4.6rem);letter-spacing:-.065em;line-height:1;margin:13px 0}.hero p{color:var(--muted);max-width:690px;margin:0}
+.tabs{position:sticky;top:0;z-index:5;padding:12px 0;background:rgba(16,13,18,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.tabrow{display:flex;gap:8px;overflow:auto}.tabrow a{white-space:nowrap;padding:8px 13px;border:1px solid var(--line);border-radius:22px;color:#d2c8d2;font-size:.8rem;font-weight:700}.tabrow a:hover{border-color:var(--orange);color:var(--orange)}
+main{padding:38px 0 76px}.document{padding:31px clamp(20px,5vw,48px);border:1px solid var(--line);border-radius:18px;background:linear-gradient(155deg,rgba(255,255,255,.025),transparent 35%),var(--panel);box-shadow:0 20px 70px rgba(0,0,0,.18)}
+.document-title{font-size:clamp(2rem,4vw,3rem);letter-spacing:-.055em;line-height:1.1;margin:0 0 12px;color:var(--orange)}.document>h2{margin:62px 0 22px;padding-top:25px;border-top:1px solid var(--line);font-size:clamp(1.6rem,3vw,2.25rem);line-height:1.15;letter-spacing:-.045em;color:#f4eee7;scroll-margin-top:80px}.document>h2:first-of-type{margin-top:45px}.document h3{margin:33px 0 9px;font-size:1.2rem;line-height:1.3;letter-spacing:-.02em;color:#ffd1a8;scroll-margin-top:84px}.document h4{margin:23px 0 7px;font-size:1.02rem;line-height:1.4;color:#ffd1a8;scroll-margin-top:84px}.document p{margin:12px 0;color:#cbc2cd}.document strong{color:#fff0df}.document ul,.document ol{padding-left:1.35rem;color:#cbc2cd}.document li{padding:3px 0 3px 4px}.document li::marker{color:var(--orange)}.document blockquote{margin:22px 0;padding:13px 18px;border-left:3px solid var(--purple);border-radius:0 10px 10px 0;background:rgba(178,140,255,.08)}.document blockquote p{margin:0;color:#e0d5e8}.document hr{border:0;border-top:1px solid var(--line);margin:26px 0}.document code{font-size:.9em;padding:2px 6px;border-radius:5px;background:rgba(255,255,255,.08);color:#ffe0c4}.document a:not(.discord){color:var(--orange);text-decoration:underline;text-underline-offset:3px}
+.end-card{margin-top:28px;padding:24px;border:1px solid rgba(255,152,63,.25);border-radius:15px;background:rgba(255,152,63,.07);display:flex;align-items:center;justify-content:space-between;gap:20px}.end-card p{margin:0;color:#d4c9d2;font-size:.9rem}.end-card a{display:inline-flex;white-space:nowrap;padding:12px 16px;border-radius:8px;background:var(--orange);color:#171019;font-weight:850;font-size:.82rem}
+footer{padding:24px 0 34px;border-top:1px solid var(--line);color:#9f95a2;font-size:.76rem}.foot{display:flex;justify-content:space-between;gap:20px;align-items:center}
+@media(max-width:620px){header{height:auto;min-height:68px}.links{gap:12px;font-size:.78rem}.brand{font-size:.73rem}.discord{display:none}.hero-inner{padding:37px 0}.hero::after{right:-110px;top:-100px}.document{padding:24px 19px}.document>h2{margin-top:45px}.end-card,.foot{align-items:flex-start;flex-direction:column}.tabrow{margin-right:-15px}.tabrow a{font-size:.74rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="index.html"><span>🎃</span>PAULBERGER INSEL</a>
+<nav class="links" aria-label="Navigation"><a href="index.html">Startseite</a><a class="active" href="regelwerk.html">Regelwerk</a></nav>
+<a class="discord" data-discord href="https://discord.gg/N86CuEYnAX">Discord beitreten</a>
+</div></header>
+<section class="hero"><div class="wrap hero-inner"><div class="eyebrow">🎃 Halloween-Edition · FiveM Roleplay</div><h1>Regeln für ein gutes Miteinander.</h1><p>Bitte lies die Regeln vor dem Spielen. Sie gelten für alle – auf dem FiveM-Server und im Discord.</p></div></section>
+<div class="tabs"><nav class="wrap tabrow" aria-label="Regelwerkbereiche"><a href="#ic">Ingame · IC</a><a href="#discord">Discord</a><a href="#kurzfassung">Bot-Bestätigung</a></nav></div>
+<main class="wrap"><article class="document"><h1 class="document-title">Paulberger Insel – Regelwerk</h1>
+<p><strong>Automatische Regelwerksnachricht · Version 1.0 · Stand: [DATUM]</strong></p>
+<blockquote><p>Diese Vorlage ist für einen GTA-RP-Server gedacht. Ersetze vor der Veröffentlichung alle verbleibenden Angaben in eckigen Klammern, zum Beispiel Supportkanal, Altersvorgaben, Safezones und servereigene Fristen. Mit dem Betreten des Servers beziehungsweise dem Verbleib auf dem Discord werden diese Regeln als bekannt vorausgesetzt.</p></blockquote>
+<hr>
+<h2 id="ic">Teil I – Ingame-Regelwerk (IC)</h2>
+<h4 id="0-automatische-begru-ung">0. Automatische Begrüßung</h4>
+<p><strong>[SYSTEM] Willkommen auf Paulberger Insel.</strong></p>
+<p>Bitte lies die folgenden Regeln vollständig. Auf unserem Server steht gemeinsames, faires und nachvollziehbares Roleplay im Vordergrund. Das Ziel ist nicht, jede Situation zu „gewinnen“, sondern eine gute Geschichte für alle Beteiligten zu ermöglichen.</p>
+<p><strong>[SYSTEM] Plattformhinweis:</strong> Paulberger Insel läuft über FiveM. Zum Mitspielen werden GTA V und FiveM benötigt. Die aktuellen Installations- und Verbindungsanweisungen findest du im Discord.</p>
+<p><strong>Grundsatz:</strong> Unwissenheit schützt nicht vor Konsequenzen. Bei Unklarheiten wende dich an das Team über [SUPPORTKANAL/TICKET-SYSTEM]. Regelverstöße werden nicht im laufenden RP diskutiert.</p>
+<hr>
+<h4 id="1-begriffe-und-grundprinzipien">1. Begriffe und Grundprinzipien</h4>
+<ul><li><strong>IC (In Character):</strong> Alles, was dein Charakter in der Spielwelt sagt, weiß oder tut.</li><li><strong>OOC (Out of Character):</strong> Alles außerhalb der Rolle, zum Beispiel Gespräche über Regeln, Technik oder privates.</li><li><strong>RP:</strong> Das glaubwürdige Ausspielen einer Situation und ihrer Folgen.</li><li><strong>Administration/Team:</strong> Die für Moderation und technische Betreuung zuständigen Personen.</li><li><strong>Szenario:</strong> Ein zusammenhängender RP-Vorgang, etwa eine Verkehrskontrolle, Verfolgung, Geiselnahme oder Schießerei.</li></ul>
+<p><strong>1.1 Realistisches Verhalten</strong> Spiele deinen Charakter nachvollziehbar aus. Berücksichtige Verletzungen, Angst, Schmerzen, Gefahr und die Konsequenzen deiner Entscheidungen. Unrealistische Aktionen, die nur dem eigenen Vorteil dienen, sind nicht erlaubt.</p>
+<p><strong>1.2 Kein Regelwerk als RP-Werkzeug</strong> Regeln, Reports, Tickets und Teamentscheidungen werden OOC geklärt. Nutze sie nicht, um eine laufende Szene zu beeinflussen, andere einzuschüchtern oder IC Vorteile zu erhalten.</p>
+<p><strong>1.3 Respekt und Spielspaß</strong> Behandle Mitspielende fair. Persönliche Angriffe, gezieltes Stören und das Ausnutzen anderer Spielerinnen und Spieler werden nicht als RP gewertet.</p>
+<hr>
+<h4 id="2-charaktere-und-identitat">2. Charaktere und Identität</h4>
+<p><strong>2.1 Charaktername</strong> Nutze einen glaubwürdigen Vor- und Nachnamen. Namen von realen Personen, prominenten Figuren, bekannten Marken, Memes oder beleidigende Namen sind unzulässig. Powergaming-Namen und absichtlich lächerliche Schreibweisen können geändert werden müssen.</p>
+<p><strong>2.2 Charakterkonzept</strong> Dein Charakter benötigt eine nachvollziehbare Persönlichkeit und Vorgeschichte. Ein Charakter darf nicht ausschließlich dafür erstellt werden, Regeln auszutesten, andere zu provozieren oder möglichst schnell Macht und Reichtum anzuhäufen.</p>
+<p><strong>2.3 Trennung der Charaktere</strong> Jeder Charakter ist eine eigene Person. Wissen, Kontakte, Geld, Gegenstände, Konflikte und Informationen dürfen nicht zwischen deinen Charakteren übertragen oder geteilt werden, sofern das Team keine ausdrückliche Ausnahme genehmigt.</p>
+<p><strong>2.4 Charakterwechsel</strong> Wechsle nicht den Charakter, um einer laufenden Szene, Festnahme, Fahndung, Verletzung oder Konsequenz zu entgehen. Warte, bis die Situation beendet ist.</p>
+<p><strong>2.5 Charaktertod</strong> Ein endgültiger Charaktertod darf nicht erzwungen werden, außer das Serverteam hat dies in einem dafür vorgesehenen Verfahren entschieden oder die betroffene Person stimmt freiwillig zu. Drohungen mit permanentem Charaktertod sind kein Ersatz für gutes RP.</p>
+<hr>
+<h4 id="3-fairness-und-korrektes-roleplay">3. Fairness und korrektes Roleplay</h4>
+<p><strong>3.1 Metagaming (MG)</strong> Informationen, die du außerhalb des Spiels erhalten hast, dürfen deinen Charakter nicht beeinflussen. Dazu gehören zum Beispiel Discord, Streams, Clips, private Nachrichten, Karten- oder Namensanzeigen sowie Wissen aus einem anderen Charakter.</p>
+<p><strong>3.2 Powergaming (PG)</strong> Unmögliche, unrealistische oder nicht erwiderbare Handlungen sind verboten. Erzwinge keine Ergebnisse für andere Personen. Beschreibe Handlungen so, dass eine faire Reaktion möglich ist.</p>
+<ul><li>Nicht zulässig: „Ich fessele dich sofort, du kannst nichts tun.“</li><li>Zulässig: „Ich versuche, deine Hände zu fesseln.“ Die Gegenseite erhält eine angemessene Reaktionsmöglichkeit.</li></ul>
+<p><strong>3.3 FailRP</strong> Verhalte dich nicht offensichtlich unrealistisch oder widersprüchlich zur Situation. Beispiele: trotz schwerer Verletzung unverändert weiterkämpfen, ohne nachvollziehbaren Grund in eine aussichtslose Gefahr springen oder ein Fahrzeug dauerhaft als Waffe beziehungsweise Sprunggerät einsetzen.</p>
+<p><strong>3.4 FearRP / Überlebenswille</strong> Dein Charakter muss auf ernsthafte Bedrohungen angemessen reagieren. Wenn eine glaubhafte, unmittelbare Gefahr besteht und du unterlegen bist, darfst du nicht so handeln, als gäbe es kein Risiko. Unvernünftige Selbstgefährdung ohne RP-Grund ist nicht erlaubt.</p>
+<p><strong>3.5 PainRP</strong> Verletzungen und Schmerzen müssen ausgespielt werden. Wer angeschossen, überfahren oder schwer verunfallt ist, kann nicht ohne Folgen sprinten, kämpfen oder sofort weiterfahren. Die Schwere der Verletzung muss in der Szene berücksichtigt werden.</p>
+<p><strong>3.6 Value of Life</strong> Behandle das Leben deines Charakters als wertvoll. Suche bei glaubhafter Gefahr Schutz und spiele Angst sowie Risiko aus. Das bedeutet nicht, dass du jede Forderung erfüllen musst; die Reaktion muss aber zur konkreten Bedrohung passen.</p>
+<p><strong>3.7 RDM (Random Deathmatch)</strong> Es ist verboten, Personen ohne ausreichenden RP-Hintergrund und erkennbare Interaktion zu verletzen oder zu töten. Ein Streit, eine Beleidigung oder ein bloßes Wiedererkennen ist nicht automatisch eine ausreichende Tötungsbegründung.</p>
+<p><strong>3.8 VDM (Vehicle Deathmatch)</strong> Fahrzeuge dürfen nicht absichtlich als Waffe eingesetzt werden, um Personen zu überfahren oder Szenen ohne RP-Grund zu beenden. Unfälle sind auszuspielen; absichtliches Rammen kann ebenfalls als VDM oder FailRP gewertet werden.</p>
+<p><strong>3.9 Combat-Logging</strong> Das absichtliche Verlassen des Servers während oder unmittelbar nach einer aktiven Szene ist verboten. Bei einem technischen Verbindungsabbruch melde dich schnellstmöglich über [SUPPORTKANAL] und kehre, wenn möglich, zurück. Triff keine Spielentscheidung, die dir durch den Abbruch einen Vorteil verschafft.</p>
+<p><strong>3.10 Bugusing und Exploits</strong> Nutze keine Fehler, Glitches, unerlaubten Programme, Makros oder Manipulationen aus. Melde entdeckte Fehler dem Team und verbreite keine Anleitung zu deren Ausnutzung.</p>
+<p><strong>3.11 Stream-Sniping und externe Informationen</strong> Streams, Aufzeichnungen, Screenshots oder externe Kommunikation dürfen nicht verwendet werden, um Positionen, Identitäten oder Pläne im Spiel zu erfahren oder weiterzugeben.</p>
+<hr>
+<h4 id="4-kommunikation-und-szenenablauf">4. Kommunikation und Szenenablauf</h4>
+<p><strong>4.1 IC/OOC sauber trennen</strong> Nutze IC-Kommunikation nur für Inhalte deines Charakters. Regelhinweise, Beschwerden und technische Probleme gehören in den Support. OOC-Kommunikation in einer aktiven Szene ist auf notwendige technische Klärungen zu beschränken.</p>
+<p><strong>4.2 Voice und Text</strong> Stimme und Text müssen zur Situation passen. Soundboards, absichtliches Schreien, Stimmenverzerrer zur Täuschung, störende Hintergrundgeräusche und dauerhaftes Unterbrechen sind unzulässig. Verständigungsprobleme dürfen nicht als taktischer Vorteil missbraucht werden.</p>
+<p><strong>4.3 Identität und Wiedererkennung</strong> Erkenne Personen nicht allein anhand einer Spieler-ID, eines Namens über dem Kopf, eines Discord-Profils oder einer außerhalb des Spiels gewonnenen Information. Nutze nur Informationen, die dein Charakter plausibel wahrnehmen konnte.</p>
+<p><strong>4.4 RP-Szene nicht absichtlich abbrechen</strong> Bleibe in einer laufenden Szene, bis sie nachvollziehbar beendet ist. Bei einem echten Notfall oder technischen Problem informiere die Beteiligten oder das Team, sobald es möglich ist.</p>
+<hr>
+<h4 id="5-tod-bewusstlosigkeit-und-medizinisches-rp">5. Tod, Bewusstlosigkeit und medizinisches RP</h4>
+<p><strong>5.1 Bewusstlosigkeit</strong> Spiele Bewusstlosigkeit entsprechend der Situation aus. Nutze sie nicht, um Informationen zu verbergen, einer Konsequenz zu entgehen oder unmittelbar wieder in den Kampf einzusteigen.</p>
+<p><strong>5.2 New-Life-Regel (NLR)</strong> Nach dem Tod beziehungsweise einem bestätigten Respawn erinnerst du dich nicht an die konkreten Umstände, die direkt zu diesem Tod geführt haben, soweit die Servermechanik dies vorsieht. Kehre für <strong>[15 MINUTEN – SERVERWERT ANPASSEN]</strong> nicht an den Ort des Todes oder in die laufende Szene zurück. Team- oder medizinische Anweisungen haben Vorrang.</p>
+<p><strong>5.3 Rettungsdienst und Behandlung</strong> Spiele medizinische Behandlung aus. Verlasse nach einer Behandlung nicht sofort die Klinik, um denselben Konflikt unverändert fortzusetzen. Medizinisches Personal ist kein Schutzschild, keine Informationsquelle für fremde Ermittlungen und kein Werkzeug, um Szenen zu unterbrechen.</p>
+<hr>
+<h4 id="6-gewalt-waffen-und-konflikte">6. Gewalt, Waffen und Konflikte</h4>
+<p><strong>6.1 Konfliktaufbau</strong> Gewalt muss aus der Situation entstehen. Gib anderen, soweit die Lage es zulässt, eine erkennbare Möglichkeit zu reagieren. Überraschungsangriffe ohne nachvollziehbaren RP-Aufbau sind nicht zulässig.</p>
+<p><strong>6.2 Eskalation</strong> Eine Beleidigung, ein kleiner Streit, ein Verkehrsverstoß oder eine einzelne Provokation rechtfertigt nicht automatisch den Einsatz tödlicher Gewalt. Wähle eine zur Situation passende Reaktion und spiele die Folgen aus.</p>
+<p><strong>6.3 Waffeneinsatz</strong> Waffen dürfen nicht zur Einschüchterung oder zum Erzwingen beliebiger Vorteile missbraucht werden. Ziehe eine Waffe nur, wenn die Situation dies glaubwürdig begründet. Waffen dürfen nicht in sicheren Bereichen eingesetzt werden, außer das Team hat dafür eine besondere Regelung bekanntgegeben.</p>
+<p><strong>6.4 Schusswechsel und laufende Szenen</strong> Ein bereits laufender Konflikt ist kein Freibrief für weitere Personen, ohne nachvollziehbaren Grund einzusteigen. Nutze keine externen Gruppen oder Charaktere, um eine Szene künstlich zu verstärken.</p>
+<p><strong>6.5 Dritte und Fraktionshilfe</strong> Beteiligte Fraktionen dürfen nur eingreifen, wenn sie einen glaubwürdigen IC-Anlass und eine zulässige Verbindung zur Szene haben. Keine spontane Unterstützung über Discord, Streams oder Gruppenchat.</p>
+<hr>
+<h4 id="7-uberfalle-geiselnahmen-und-illegale-aktivitaten">7. Überfälle, Geiselnahmen und illegale Aktivitäten</h4>
+<p><strong>7.1 Raub und Überfall</strong> Ein Überfall muss ausgespielt werden und darf nicht allein dem schnellen Erhalt von Geld oder Gegenständen dienen. Wähle eine glaubwürdige Gelegenheit, kommuniziere klare Forderungen und ermögliche eine angemessene Reaktion.</p>
+<p><strong>7.2 Geiseln</strong> Geiseln müssen echte Mitspielende sein, die fair behandelt werden. Eine Geiselnahme darf nicht durch erzwungenes Mitmachen eines befreundeten Zweitcharakters, eines Teammitglieds oder eines abgesprochenen Komplizen vorgetäuscht werden, um Vorteile zu erhalten.</p>
+<p><strong>7.3 Geiselspiel</strong> Eine Geisel darf nicht ohne angemessenen Grund dauerhaft festgehalten, entwürdigt oder aus dem Spiel gedrängt werden. Tödliche Gewalt gegen eine Geisel ist nur in einer entsprechend aufgebauten, plausiblen Situation zulässig und darf nicht als routinemäßiger Abschluss verwendet werden.</p>
+<p><strong>7.4 Verhandlungen</strong> Forderungen müssen verhältnismäßig und nachvollziehbar sein. Nutze Geiseln nicht, um unerfüllbare oder offensichtlich regelwidrige Vorteile zu verlangen. Verhandlerinnen und Verhandler müssen eine realistische Chance haben, mit der Gegenseite zu kommunizieren.</p>
+<p><strong>7.5 Ausrauben und Durchsuchen</strong> Nimm nur Gegenstände, die in der Situation sinnvoll und durch die Spielregeln erlaubt sind. Erzwinge keine Passwörter, privaten Daten, OOC-Informationen oder willkürlichen Geldtransfers. Nutze die vorgesehenen Spielmechaniken.</p>
+<p><strong>7.6 Entführung</strong> Entführungen benötigen einen nachvollziehbaren RP-Grund. Halte Personen nicht unnötig lange fest. Eine Entführung darf nicht dazu dienen, jemanden vom Spielen abzuhalten oder eine OOC-Auseinandersetzung auszutragen.</p>
+<p><strong>7.7 Fraktionen und organisierte Kriminalität</strong> Fraktionen müssen die serverseitigen Bewerbungs-, Mitglieder- und Aktivitätsregeln einhalten. Interne Konflikte, Bündnisse und Kriege müssen im RP begründet sein. Absprachen über Discord dürfen keine IC-Informationen außerhalb der Rolle vermitteln.</p>
+<p><strong>7.8 Raub-Limits und Sperrzeiten</strong> Beachte die aktuellen Limits, Cooldowns und Voraussetzungen für Überfälle, Banken, Geschäfte, Labore und andere Aktivitäten in <strong>[REGELKANAL/LINK]</strong>. Wenn für eine Aktivität kein Limit veröffentlicht ist, frage vor dem Start das Team. Diese Regel verhindert, dass durch fehlende Angaben ein Freibrief entsteht.</p>
+<hr>
+<h4 id="8-polizei-rettungsdienst-und-offentliche-berufe">8. Polizei, Rettungsdienst und öffentliche Berufe</h4>
+<p><strong>8.1 Dienstpflicht und Fairness</strong> Dienstliche Rollen müssen professionell und nachvollziehbar ausgespielt werden. Nutze Dienstzugang, Ausrüstung, Datenbanken oder Informationen nicht für private Vorteile.</p>
+<p><strong>8.2 Korruption</strong> Korruption, Bestechung oder Informationsweitergabe innerhalb öffentlicher Fraktionen ist nur erlaubt, wenn die Fraktionsleitung und das Team dies ausdrücklich gestatten. Unerlaubte Korruption ist ein Regelverstoß.</p>
+<p><strong>8.3 Festnahmen und Durchsuchungen</strong> Spiele Kontrollen, Durchsuchungen, Festnahmen und Behandlungen nachvollziehbar aus. Nutze keine technischen Möglichkeiten, um eine Reaktion zu umgehen oder eine Person ohne RP-Grund zu bestrafen.</p>
+<p><strong>8.4 Einsatzkräfte sind keine Freifläche</strong> Polizei, Rettungsdienst und andere öffentliche Berufe dürfen angesprochen, kritisiert oder in zulässige Szenen eingebunden werden. Gezieltes Trollen, massenhaftes Provozieren oder grundloses Angreifen dieser Rollen ist verboten.</p>
+<hr>
+<h4 id="9-fahrzeuge-eigentum-und-wirtschaft">9. Fahrzeuge, Eigentum und Wirtschaft</h4>
+<p><strong>9.1 Fahrzeuge realistisch nutzen</strong> Fahre der Situation angemessen. Dauerhaftes Rammen, unrealistisches Offroad-Fahren, absichtliches Überschlagen, extreme Sprünge und das Ignorieren schwerer Schäden sind FailRP.</p>
+<p><strong>9.2 Fahrzeugdiebstahl</strong> Diebstahl benötigt einen RP-Anlass und muss mit den vorgesehenen Mechaniken erfolgen. Nutze keine Fahrzeuge anderer, um eine Szene technisch zu zerstören oder Vorteile außerhalb des RPs zu erhalten.</p>
+<p><strong>9.3 Eigentum und Betrug</strong> Betrug, Handel und Eigentumswechsel müssen mit den erlaubten Spielmechaniken durchgeführt werden. Manipuliere keine Transaktionen und nutze keine Bugs, um Geld, Fahrzeuge, Immobilien oder Gegenstände zu vervielfachen.</p>
+<p><strong>9.4 Echtgeldhandel</strong> Der Kauf, Verkauf oder Tausch von Ingame-Geld, Konten, Gegenständen oder Vorteilen gegen Echtgeld oder externe Gegenleistungen ist verboten.</p>
+<p><strong>9.5 Wirtschaftsausnutzung</strong> Nutze keine Zweitcharaktere, Freunde, Fraktionen oder Mechanikfehler, um Beschränkungen, Gebühren, Verluste oder Sperren zu umgehen.</p>
+<hr>
+<h4 id="10-sichere-bereiche-und-schutzregeln">10. Sichere Bereiche und Schutzregeln</h4>
+<p><strong>10.1 Safezones</strong> Die jeweils veröffentlichten Safezones sind zu beachten: <strong>[SAFEZONES EINTRAGEN, z. B. Krankenhaus, Behörde, Einreisebereich]</strong>. In Safezones sind Angriffe, Überfälle, Entführungen und das gezielte Provozieren laufender Gewaltszenen verboten.</p>
+<p><strong>10.2 Kein Flüchten in Schutzbereiche</strong> Betrete eine Safezone nicht, um einer bereits laufenden Verfolgung, Festnahme, Geiselnahme oder einem Konflikt zu entgehen. Umgekehrt darf niemand eine Safezone als Vorwand für einen Angriff ausnutzen.</p>
+<p><strong>10.3 Schutz vor Belästigung</strong> Sexuelle Belästigung, sexualisierte Gewalt, diskriminierende Angriffe und das Ausspielen extremer Inhalte ohne ausdrückliche Zustimmung der betroffenen Personen sind verboten. Ein „Das war nur RP“ hebt diese Regel nicht auf.</p>
+<hr>
+<h4 id="11-team-support-und-reports">11. Team, Support und Reports</h4>
+<p><strong>11.1 Teamansagen</strong> Anweisungen des Teams sind zu befolgen. Wenn du eine Entscheidung anfechten möchtest, tue dies ruhig und mit Belegen über [SUPPORTKANAL]. Diskutiere nicht während einer laufenden Szene.</p>
+<p><strong>11.2 Reportqualität</strong> Melde Vorfälle zeitnah, sachlich und mit verfügbaren Belegen. Nenne beteiligte Personen, ungefähre Uhrzeit und eine kurze Beschreibung. Veröffentliche keine privaten Daten oder Beweise öffentlich.</p>
+<p><strong>11.3 Falsche oder missbräuchliche Reports</strong> Absichtlich falsche Meldungen, Drohungen mit Reports oder das Belästigen des Teams durch Mehrfachmeldungen können selbst geahndet werden.</p>
+<p><strong>11.4 Teammitglieder</strong> Beleidigungen, Drohungen, Bestechungsversuche und das Vortäuschen einer Teamrolle sind verboten. Kritik ist erlaubt, wenn sie respektvoll und über den vorgesehenen Weg erfolgt.</p>
+<hr>
+<h4 id="12-ingame-strafen">12. Ingame-Strafen</h4>
+<p><strong>[SYSTEM] Mögliche Maßnahmen bei Regelverstößen</strong></p>
+<p>Das Team berücksichtigt Schwere, Absicht, Wiederholung, Folgen und Kooperation. Maßnahmen können kombiniert oder angepasst werden.</p>
+<ol><li><strong>Hinweis / mündliche Verwarnung</strong> – bei leichten oder erstmaligen Verstößen.</li><li><strong>Verwarnung / schriftlicher Vermerk</strong> – bei klaren Verstößen oder Wiederholungen.</li><li><strong>Kick / temporärer Ausschluss</strong> – bei Störung, fehlender Kooperation oder weiteren Verstößen.</li><li><strong>Temporärer Bann</strong> – bei schweren oder wiederholten Verstößen.</li><li><strong>Permanenter Bann</strong> – bei besonders schweren Verstößen, Cheating, gezielter Sabotage oder anhaltender Uneinsichtigkeit.</li><li><strong>Rücksetzung / Entfernung unrechtmäßig erlangter Vorteile</strong> – bei Exploits, Bugusing oder Wirtschaftsbetrug.</li><li><strong>Fraktions- oder Charaktermaßnahmen</strong> – wenn ein Verstoß in einer Rolle, Fraktion oder mit einem bestimmten Charakter begangen wurde.</li></ol>
+<p>Schwere Fälle können direkt zu einer stärkeren Maßnahme führen. Ein festes „Recht auf mehrere Verwarnungen“ besteht nicht. Einsprüche sind über <strong>[SUPPORTKANAL]</strong> möglich.</p>
+<hr>
+<h2 id="discord">Teil II – Discord-Regelwerk</h2>
+<h4 id="0-automatische-begru-ung">0. Automatische Begrüßung</h4>
+<p><strong>[BOT] Willkommen auf dem offiziellen Discord von Paulberger Insel.</strong></p>
+<p>Dieser Server dient der Information, Organisation und Community. Mit dem Beitritt erklärst du dich mit den folgenden Regeln und den geltenden Plattformregeln einverstanden. Bei Fragen oder Problemen nutze <strong>[TICKET-/SUPPORTKANAL]</strong>.</p>
+<hr>
+<h4 id="1-umgang-miteinander">1. Umgang miteinander</h4>
+<ol><li>Behandle alle Mitglieder respektvoll. Beleidigungen, Einschüchterung, gezieltes Provozieren, Mobbing und Hetze sind untersagt.</li><li>Diskriminierung aufgrund von Herkunft, Hautfarbe, Religion, Geschlecht, sexueller Orientierung, Behinderung oder anderen persönlichen Merkmalen wird nicht toleriert.</li><li>Drohungen, Doxxing, Erpressung, Aufrufe zu Belästigung und das Veröffentlichen persönlicher Daten sind verboten.</li><li>Diskutiere sachlich. Persönliche Konflikte gehören nicht in öffentliche Kanäle.</li><li>Kritik am Server und Team ist erlaubt, sofern sie respektvoll, konkret und im passenden Kanal geäußert wird.</li><li>Umgehe eine Moderationsmaßnahme nicht mit einem Zweitkonto, einem anderen Kanal oder einer anderen Schreibweise.</li></ol>
+<hr>
+<h4 id="2-nachrichten-und-kanale">2. Nachrichten und Kanäle</h4>
+<ol><li>Nutze jeden Kanal für den vorgesehenen Zweck und beachte die Kanalbeschreibung.</li><li>Spam, Flooding, übermäßige Erwähnungen, sinnlose Nachrichtenketten und absichtliches Stören sind untersagt.</li><li>Verwende @everyone, @here und Rollen-Erwähnungen nur, wenn du dazu berechtigt bist.</li><li>Poste keine Inhalte mehrfach, nur um Aufmerksamkeit zu erzwingen.</li><li>Schreibe verständlich und halte Unterhaltungen in den passenden Kanälen.</li><li>Respektiere Spoiler-, Medien- und Formatierungsregeln des jeweiligen Kanals.</li><li>Versuche nicht, Moderationsfilter, AutoMod oder Sicherheitsfunktionen zu umgehen.</li></ol>
+<hr>
+<h4 id="3-unzulassige-inhalte-und-links">3. Unzulässige Inhalte und Links</h4>
+<ol><li>Pornografische, sexuell explizite, extrem gewalttätige oder anderweitig nicht jugendfreie Inhalte sind verboten.</li><li>Sexualisierte Inhalte über Minderjährige, Darstellungen sexueller Gewalt oder entsprechende Anspielungen führen zu sofortigen Maßnahmen und können an die Plattform gemeldet werden.</li><li>Verboten sind Malware, Phishing, Betrugslinks, schädliche Dateien, Accountdiebstahl und Anleitungen zur Umgehung von Sicherheitsmaßnahmen.</li><li>Poste keine privaten Informationen von dir oder anderen, darunter Adresse, Telefonnummer, Zugangsdaten, Zahlungsdaten oder private Nachrichten ohne Einverständnis.</li><li>Verbreite keine illegalen Inhalte oder Aufrufe zu realer Gewalt.</li><li>Externe Links und Dateien müssen sicher und thematisch passend sein. Das Team darf verdächtige Inhalte entfernen.</li><li>Nutze keine gefälschten Screenshots, manipulierten Beweise oder aus dem Zusammenhang gerissenen Chatverläufe, um Mitglieder oder Teammitglieder zu belasten.</li></ol>
+<hr>
+<h4 id="4-werbung-und-eigenwerbung">4. Werbung und Eigenwerbung</h4>
+<ol><li>Werbung für andere Discord-Server, Projekte, Produkte, Streams oder Social-Media-Kanäle ist nur mit ausdrücklicher Teamfreigabe erlaubt.</li><li>Unaufgeforderte Werbung per Direktnachricht an Mitglieder ist untersagt.</li><li>Das Sammeln von Mitgliedern, Kunden oder Unterstützern über diesen Server ist ohne Freigabe verboten.</li><li>Kooperationen und Partnerschaften werden ausschließlich über <strong>[KONTAKTKANAL]</strong> angefragt.</li><li>Täuschende Gewinnspiele, Krypto-/Geldangebote und externe Handelsangebote sind nicht erlaubt.</li></ol>
+<hr>
+<h4 id="5-sprachkanale">5. Sprachkanäle</h4>
+<ol><li>Verhalte dich in Sprachkanälen respektvoll und lass andere ausreden.</li><li>Soundboards, Schreien, Störgeräusche, absichtliches Übersteuern und wiederholtes Betreten/Verlassen zur Störung sind verboten.</li><li>Aufnahmen, Mitschnitte und die Weitergabe von Sprachinhalten benötigen die Zustimmung der betroffenen Personen und müssen mit geltendem Recht vereinbar sein.</li><li>Nutze private Kanäle nicht, um Moderationsmaßnahmen zu umgehen oder andere Mitglieder gezielt zu belästigen.</li><li>Team- und Supportkanäle sind kein Ort für öffentliche Streitgespräche.</li></ol>
+<hr>
+<h4 id="6-rollen-namen-und-profil">6. Rollen, Namen und Profil</h4>
+<ol><li>Servernamen, Profilbilder, Status und Rollen dürfen keine beleidigenden, diskriminierenden, extremistischen oder pornografischen Inhalte enthalten.</li><li>Gib dich nicht als Teammitglied, Bot, bekannte Person oder anderes Mitglied aus.</li><li>Nutze nur Rollen und Berechtigungen, die dir vom Serverteam zugewiesen wurden.</li><li>Ändere deinen Namen nicht wiederholt, um Moderation, Blocklisten oder Sanktionen zu umgehen.</li><li>Kaufe, verkaufe oder teile keine Discord-Konten und Zugangsdaten.</li></ol>
+<hr>
+<h4 id="7-tickets-und-support">7. Tickets und Support</h4>
+<ol><li>Eröffne ein Ticket nur für ein konkretes Anliegen und wähle den passenden Grund.</li><li>Beschreibe dein Anliegen sachlich und liefere relevante Informationen oder Belege mit.</li><li>Eröffne keine mehrfachen Tickets zum selben Thema und markiere Teammitglieder nicht ohne Grund.</li><li>Tickets sind vertraulich zu behandeln. Veröffentliche Inhalte daraus nicht ohne Zustimmung der Beteiligten oder des Teams.</li><li>Bleibe auch bei einer Ablehnung respektvoll. Wenn du die Entscheidung überprüfen lassen möchtest, frage im Ticket sachlich nach dem Beschwerdeweg.</li><li>Lüge nicht, manipuliere keine Beweise und nutze Tickets nicht, um andere Mitglieder unter Druck zu setzen.</li></ol>
+<hr>
+<h4 id="8-verbindung-zwischen-discord-und-ingame">8. Verbindung zwischen Discord und Ingame</h4>
+<ol><li>Discord ist OOC. Informationen aus Discord dürfen nicht ohne zulässigen IC-Weg im Spiel verwendet werden.</li><li>Koordiniere keine Spielvorteile, Überfälle, Verfolgungen oder Szenen über externe Kanäle, sofern dies Metagaming ermöglichen würde.</li><li>Teile keine privaten Ingame-Informationen, Beweise oder Identitäten, um laufende Szenen zu beeinflussen.</li><li>Ingame-Regelverstöße werden über das vorgesehene Supportsystem gemeldet, nicht durch öffentliche Anprangerung.</li><li>Discord-Sanktionen und Ingame-Sanktionen können unabhängig voneinander erfolgen, wenn derselbe Vorfall beide Bereiche betrifft.</li></ol>
+<hr>
+<h4 id="9-moderation-und-sanktionen">9. Moderation und Sanktionen</h4>
+<p><strong>[BOT] Hinweis zur Moderation</strong></p>
+<p>Das Team darf Nachrichten entfernen, Inhalte verbergen, Mitglieder verwarnen, stummschalten, zeitweise ausschließen oder dauerhaft bannen. Die Maßnahme richtet sich nach Schwere, Absicht, Wiederholung und Auswirkungen des Verstoßes.</p>
+<p>Mögliche Maßnahmen:</p>
+<ul><li>Hinweis oder Verwarnung</li><li>Nachrichtenlöschung</li><li>Timeout oder temporäre Stummschaltung</li><li>temporärer Ausschluss</li><li>permanenter Ausschluss</li><li>Einschränkung einzelner Rollen oder Kanäle</li><li>Meldung an Discord oder andere zuständige Stellen, wenn erforderlich</li></ul>
+<p>Schwere Verstöße können ohne vorherige Verwarnung zu einem sofortigen Ausschluss führen. Umgehungsversuche können die Maßnahme verlängern. Eine Sanktion wird nicht in öffentlichen Kanälen verhandelt.</p>
+<p><strong>Einspruch:</strong> Nutze <strong>[APPEAL-/SUPPORTKANAL]</strong>. Nenne deinen Discord-Namen, die Maßnahme, den ungefähren Zeitpunkt und eine sachliche Begründung. Spam, Drohungen oder Mehrfach-Tickets beschleunigen keine Prüfung.</p>
+<hr>
+<h2 id="kurzfassung">Teil III – Kurzfassung für Bot-Bestätigung</h2>
+<p><strong>[BOT] Regelwerk bestätigen</strong></p>
+<p>Bitte bestätige mit <strong>✅</strong>, dass du die Regeln für Ingame und Discord gelesen hast und einhältst.</p>
+<p>Mit der Bestätigung erkennst du an:</p>
+<ul><li>Du trennst IC und OOC.</li><li>Du spielst fair und ermöglichst anderen eine Reaktion.</li><li>Du nutzt keine Bugs, externen Informationen oder Zweitcharaktere für Vorteile.</li><li>Du behandelst Community und Team respektvoll.</li><li>Du meldest Probleme über den vorgesehenen Supportweg.</li><li>Verstöße können zu Einschränkungen im Spiel, auf Discord oder in beiden Bereichen führen.</li></ul>
+<p><strong>[BOT] Bei Fragen:</strong> [SUPPORTKANAL] <strong>[BOT] Aktuelle Ergänzungen:</strong> [REGELKANAL/LINK] <strong>[BOT] Regelwerk zuletzt aktualisiert:</strong> [DATUM]</p>
+<div class="end-card"><p>Fragen oder Probleme? Melde dich im offiziellen Discord beim Support.</p><a data-discord href="https://discord.gg/N86CuEYnAX">Zum Discord →</a></div>
+</article></main>
+<footer><div class="wrap foot"><span>Paulberger Insel · FiveM GTA-RP</span><span>Ein Fanprojekt, nicht mit Rockstar Games verbunden.</span></div></footer>
+<script>const discordInvite="https://discord.gg/N86CuEYnAX";document.querySelectorAll("[data-discord]").forEach(function(a){a.href=discordInvite;a.target="_blank";a.rel="noopener noreferrer"});</script>
+</body>
+</html>
+
